@@ -1,0 +1,9 @@
+name: workflow
+on: push
+jobs:
+  worflow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greetings
+        run: echo "Hellow from github actions"
+
